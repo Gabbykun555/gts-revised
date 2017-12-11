@@ -15,31 +15,44 @@
   
   <link href="https://fonts.googleapis.com/css?family=Comfortaa" type="text/css" rel="stylesheet">
   
+  <link href="https://fonts.googleapis.com/css?family=Poppins" type="text/css" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" type="text/css" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css?family=Rubik" type="text/css" rel="stylesheet">
+  
   <link rel="stylesheet" href="style/animate.css">
+ 
 
   <link rel="stylesheet" href="style/portfolio.css">
 
 </head>
   
   <body>
+  
+  <script src="js/wow.min.js"></script>
+  
+              <script>
+              new WOW().init();
+              </script>
    
    <div class="whole">
      
     <section id="section1">
        
         <div>
-           <img id="logo" src="style/logo.png">
+           <a href="index.html"><img id="logo" src="style/logo.png"></a>
             <ul id="nav-bar">
-               <a href=""><li class="nav-link">Home</li></a>
-               <a href=""><li class="nav-link">About</li></a>
-               <a href=""><li class="nav-link">Projects</li></a>
-               <a href=""><li class="nav-link">Contact</li></a>
+               <a href="index.html" class="nav-a"><li class="active nav-link">Home</li></a>
+               <a href="#section2" class="nav-a"><li class="nav-link">About</li></a>
+               <a href="#section4" class="nav-a"><li class="nav-link">Projects</li></a>
+               <a href="#section5" class="nav-a"><li class="nav-link">Contact</li></a>
             </ul>
         </div>
         
         <div class="overlay">  
             <div class="intro">
-                <h1 id="heading">Gab's Tech Space</h1>
+                <h1 class="animated fadeIn" id="heading">Gab's Tech Space</h1>
             </div>
         </div>
     </section>
@@ -124,38 +137,38 @@
            <h3 id="projects-heading">Projects</h3>
                 <div class="container">
                 
-                <div class="card" style="width: 20rem; border-radius: 0.6em;">
+                <div class="wow card" style="width: 20rem; border-radius: 0.6em;">
   <img style="height: 250px;" class="card-img-top" src="images/ihf.png" alt="Card image cap">
   <div class="card-block">
     <h4 class="card-title">iHeartFandomz.net</h4>
     <p class="card-text">A fan-based website used to engage people of similar interests in fan-made art and media.</p>
     <div class="btns">
-    <a href="#" class="btn btn-primary">View</a>
-    <a href="#" class="btn btn-secondary">Github Repo</a>
+    <a href="https://gabbykun555.github.io/iHeartFandomz.net/" class="btn btn-primary" target="_blank">View</a>
+    <a href="https://github.com/Gabbykun555/iHeartFandomz.net" class="btn btn-secondary" target="_blank">Github Repo</a>
     </div>
   </div>
 </div>
      
-     <div class="card" style="width: 20rem; border-radius: 0.6em;">
+     <div class="wow card" style="width: 20rem; border-radius: 0.6em;">
   <img style="height: 250px;" class="card-img-top" src="images/rjs.png" alt="Card image cap">
   <div class="card-block">
     <h4 class="card-title">ReactJS Web App</h4>
     <p class="card-text">A basic front-end to-do list app utilizing the ReactJS framework.</p>
     <div class="btns">
-    <a href="#" class="btn btn-primary">View</a>
-    <a href="#" class="btn btn-secondary">Github Repo</a>
+    <a href="https://gabbykun555.github.io/ReactJS_ToDoList_App/" class="btn btn-primary" target="_blank">View</a>
+    <a href="https://github.com/Gabbykun555/ReactJS_ToDoList_App" class="btn btn-secondary" target="_blank">Github Repo</a>
     </div>
   </div>
 </div>
      
-     <div class="card" style="width: 20rem; border-radius: 0.6em;">
+     <div class="wow card" style="width: 20rem; border-radius: 0.6em;">
   <img style="height: 250px;" class="card-img-top" src="images/movieapp.png" alt="Card image cap">
   <div class="card-block">
     <h4 class="card-title">JQuery Movie Info App</h4>
     <p class="card-text">A movie listing app using Javascript es6, JQuery and the Axios and TMDb APIs.<br> </p>
     <div class="btns">
-    <a href="#" class="btn btn-primary">View</a>
-    <a href="#" class="btn btn-secondary">Github Repo</a>
+    <a href="https://gabbykun555.github.io/movie_info_app/" class="btn btn-primary" target="_blank">View</a>
+    <a href="https://github.com/Gabbykun555/movie_info_app" class="btn btn-secondary" target="_blank">Github Repo</a>
     </div>
   </div>
 </div>
@@ -170,15 +183,17 @@
     <section id="section5">
         <div class="contact">
            <h3 id="contact-heading">Contact Me</h3>
-            <div class="container">
                 <div id="contact-form">
-                    
-                </div>
+                    <div class="container">
+               
+                        
+                   
+                </div>  
             </div>
-        </div>
-   </section>      
-    </div>         
-   
+        </div> 
+   </section>              
+   </div>      
+       
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <script src="js/main.js"></script> 
   </body>
